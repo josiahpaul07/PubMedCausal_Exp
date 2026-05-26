@@ -1,0 +1,13 @@
+nohup: ignoring input
+
+| Subset                       | Label task    |   Pairs |   Correct |   Incorrect | Accuracy   | Macro F1   | Weighted F1   |
+|:-----------------------------|:--------------|--------:|----------:|------------:|:-----------|:-----------|:--------------|
+| Exact span matches           | Causality     |     818 |       648 |         170 | 79.22%     | 62.74%     | 80.25%        |
+| Exact span matches           | Sententiality |     818 |       776 |          42 | 94.87%     | 50.95%     | 96.79%        |
+| Partial span matches only    | Causality     |   2,341 |     1,244 |       1,097 | 53.14%     | 53.10%     | 53.30%        |
+| Partial span matches only    | Sententiality |   2,341 |     1,798 |         543 | 76.80%     | 49.18%     | 83.80%        |
+| Exact + partial span matches | Causality     |   3,159 |     1,892 |       1,267 | 59.89%     | 58.33%     | 60.66%        |
+| Exact + partial span matches | Sententiality |   3,159 |     2,574 |         585 | 81.48%     | 50.45%     | 87.33%        |
+
+Saved summary CSV: label_ablation_summary_simple.csv
+Saved alignment CSV: deepseek_gold_alignment.csv
