@@ -133,7 +133,7 @@ mkdir -p results/finetuned_models results/detection results/extraction
 
 ## Dataset
 
-### Raw Data Format (30k_train.json / 30k_test.json)
+### Raw Data Format (30k_train.json / 30k_test.json) found in https://huggingface.co/datasets/jaypee01/PubMedCausal/tree/main
 
 Each sample contains a sentence and up to 16 cause-effect pairs:
 
